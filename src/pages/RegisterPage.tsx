@@ -50,7 +50,7 @@ const RegisterPage: React.FC = () => {
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div className="mb-10">
               <div className="flex items-center space-x-2 text-slate-950 dark:text-zinc-50 font-black text-xl mb-8">
-                <div className="h-6 w-6 bg-slate-950 dark:bg-zinc-50 rounded flex items-center justify-center text-white dark:text-zinc-950 text-[10px]">GS</div>
+                <img src="/tortue.svg" alt="GestionSchool" className="h-6 w-6 rounded" />
                 <span>GestionSchool</span>
               </div>
               <h2 className="text-2xl font-bold tracking-tight text-slate-950 dark:text-zinc-50">Créer votre console</h2>

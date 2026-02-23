@@ -64,8 +64,8 @@ const Dashboard: React.FC = () => {
       {/* Sidebar Shadcn Style (Adaptive) */}
       <aside className="hidden w-64 bg-white dark:bg-zinc-950 border-r border-slate-200 dark:border-zinc-800 md:flex flex-col">
         <div className="p-4 border-b border-slate-100 dark:border-zinc-900 mb-2">
-          <div className="flex items-center space-x-2 px-2 py-1.5 rounded-md hover:bg-slate-50 dark:hover:bg-zinc-900 cursor-pointer transition border border-transparent hover:border-slate-200 dark:hover:border-zinc-800">
-            <div className="h-6 w-6 bg-slate-950 dark:bg-zinc-50 rounded flex items-center justify-center text-white dark:text-zinc-950 font-bold text-[10px]">GS</div>
+            <div className="flex items-center space-x-2 px-2 py-1.5 rounded-md hover:bg-slate-50 dark:hover:bg-zinc-900 cursor-pointer transition border border-transparent hover:border-slate-200 dark:hover:border-zinc-800">
+            <img src="/tortue.svg" alt="GestionSchool" className="h-6 w-6 rounded" />
             <div className="flex-1 overflow-hidden">
                <p className="text-xs font-semibold truncate">GestionSchool Pro</p>
                <p className="text-[10px] text-slate-500 dark:text-zinc-500 truncate italic">Établissement Principal</p>
@@ -96,7 +96,10 @@ const Dashboard: React.FC = () => {
         </div>
 
         <div className="p-3 space-y-1 border-t border-slate-100 dark:border-zinc-900">
-          <button className="flex w-full items-center space-x-3 rounded-md px-3 py-2 text-slate-600 dark:text-zinc-400 hover:bg-slate-50 dark:hover:bg-zinc-900 hover:text-slate-950 dark:hover:text-zinc-50 transition text-sm font-medium">
+          <button 
+            onClick={() => navigate("/school/settings")}
+            className="flex w-full items-center space-x-3 rounded-md px-3 py-2 text-slate-600 dark:text-zinc-400 hover:bg-slate-50 dark:hover:bg-zinc-900 hover:text-slate-950 dark:hover:text-zinc-50 transition text-sm font-medium"
+          >
             <Settings size={16} /> <span>Paramètres</span>
           </button>
           <button className="flex w-full items-center space-x-3 rounded-md px-3 py-2 text-slate-600 dark:text-zinc-400 hover:bg-slate-50 dark:hover:bg-zinc-900 hover:text-slate-950 dark:hover:text-zinc-50 transition text-sm font-medium">

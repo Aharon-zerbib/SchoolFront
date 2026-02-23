@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       {/* Nav Pro */}
       <nav className="sticky top-0 z-50 border-b border-slate-200/60 dark:border-zinc-800/60 bg-white/70 dark:bg-zinc-950/70 backdrop-blur-xl px-6 py-4 flex items-center justify-between transition-colors">
         <div className="flex items-center space-x-2">
-          <div className="h-6 w-6 bg-slate-950 dark:bg-zinc-50 rounded flex items-center justify-center text-white dark:text-zinc-950 font-black text-[10px]">GS</div>
+          <img src="/tortue.svg" alt="GestionSchool" className="h-6 w-6 rounded" />
           <span className="text-lg font-bold tracking-tighter">GestionSchool</span>
         </div>
         <div className="flex items-center space-x-6">
@@ -94,10 +94,10 @@ const Home: React.FC = () => {
       {/* Footer Minimalist */}
       <footer className="border-t border-slate-200 dark:border-zinc-900 py-16 px-6 text-center">
         <div className="flex flex-col items-center justify-center space-y-6">
-          <div className="flex items-center space-x-2 grayscale opacity-50">
-             <div className="h-5 w-5 bg-slate-950 dark:bg-zinc-50 rounded flex items-center justify-center text-white dark:text-zinc-950 text-[8px] font-black">GS</div>
+           <div className="flex items-center space-x-2 grayscale opacity-50">
+             <img src="/tortue.svg" alt="GestionSchool" className="h-5 w-5 rounded" />
              <span className="text-sm font-bold tracking-tighter">GestionSchool</span>
-          </div>
+           </div>
           <p className="text-xs font-bold text-slate-400 dark:text-zinc-600 uppercase tracking-[0.3em]">
             L'excellence technologique au service de l'éducation
           </p>
